@@ -151,3 +151,4 @@ Vue.prototype.$Win = win;
 ###  ``win.screenInfo``  
 
 屏幕信息  
+Ps:联系不到原开发者，项目着急使用所以修改了下 参考来自于https://www.npmjs.com/package/electron-window-util/v/1.1.8

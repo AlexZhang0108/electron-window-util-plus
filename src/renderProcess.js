@@ -3,7 +3,7 @@ const electron = require('electron');
 const {remote, ipcRenderer} = electron;
 const TWEEN = require('../util/Tween');
 
-const windowUtil = remote.require('electron-window-util');
+const windowUtil = remote.require('electron-window-util-plus');
 
 class renderProcess {
   constructor(config = {}) {

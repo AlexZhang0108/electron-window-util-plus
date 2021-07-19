@@ -16,7 +16,7 @@ import Vue from 'vue'
 import router from './router'
 
 const electron = require('electron');
-const winUtil = require('electron-window-util');
+const winUtil = require('electron-window-util-plus');
 
 let baseUrl = electron.remote.getGlobal('baseUrl');
 

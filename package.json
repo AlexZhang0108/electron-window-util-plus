@@ -1,0 +1,28 @@
+{
+  "name": "electron-window-util-plus",
+  "version": "1.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+      "name": "alex",
+      "email": "81436335@qq.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "window"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexZhang0108/electron-window-util-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexZhang0108/electron-window-util-plus/issues"
+  },
+  "homepage": "https://github.com/AlexZhang0108/electron-window-util-plus#readme",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

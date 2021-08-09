@@ -10,20 +10,7 @@ class mainProcess {
     // this.url = '';
     this.useRouter = config.useRouter;
     this.baseWindowConfig = {
-      frame: false,
-      // frame: true,
-      // center: true,
-      width: 0,
-      height: 0,
-      opacity: 0,
-      webPreferences: {
-        webSecurity: false, // 是否禁用浏览器的跨域安全特性
-        nodeIntegration: true, // 是否完整支持node
-        enableRemoteModule: true,//Electron10.x以后要使用remote模块的话必须得在BrowserWindow中开启
-        contextIsolation: false,//electron升级警告
-      },
       ...config.baseWindowConfig,
-      show: false,
     };
     this._windowList = []; // 窗口容器
 

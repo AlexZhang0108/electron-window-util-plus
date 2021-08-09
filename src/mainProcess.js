@@ -10,7 +10,6 @@ class mainProcess {
     // this.url = '';
     this.useRouter = config.useRouter;
     this.baseWindowConfig = {
-      transparent: true,
       frame: false,
       // frame: true,
       // center: true,

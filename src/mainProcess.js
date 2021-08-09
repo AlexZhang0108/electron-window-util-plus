@@ -48,8 +48,6 @@ class mainProcess {
       winInfo = this.getWinInfoByName(option.name);
     }
 
-    console.log(winInfo)
-
     if (winInfo) {
       //发送消息
       winInfo.backMsg = option.data;
